@@ -1,0 +1,14 @@
+# vscode
+.vscode/
+
+# pycache
+__pycache__
+
+# tmp files
+*.tmp
+
+# tensorboard
+tensorboard/
+
+job/
+logs/
