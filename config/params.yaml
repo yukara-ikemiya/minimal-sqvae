@@ -1,0 +1,23 @@
+
+# resize MNIST from 28 to 32
+# to apply hier compression
+data_resize: 32 
+
+batch_size: 128
+lr: 0.001
+beta_1: 0.0
+beta_2: 0.99
+num_epoch: 100
+temperature_decay: 0.00001
+
+encdec:
+    in_ch: 1 # MNIST
+    width: 8
+    depth: 2
+    num_down: 4 # compression -> 2^4=16
+    stride: 2
+
+quantizer:
+    size_dict: 32
+    dim_dict: 8
+    var_q_init: 5.
