@@ -47,6 +47,10 @@ class Decoder(nn.Module):
 
             blocks.extend([resnet, up])
 
+        # output layer for 0-1 image date
+        out = nn.Sigmoid()
+
+        blocks.append(out)
         self.model = nn.Sequential(*blocks)
 
     def forward(self, x):
