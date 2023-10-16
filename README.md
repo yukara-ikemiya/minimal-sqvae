@@ -4,6 +4,8 @@ A minimal Pytorch implementation of "**SQ-VAE: Variational Bayes on Discrete Rep
 - Paper (arxiv) : [SQ-VAE: Variational Bayes on Discrete Representation with Self-annealed Stochastic Quantization](https://arxiv.org/abs/2205.07547)
 - Official codes : [sony/sqvae](https://github.com/sony/sqvae)
 
+![](assets/sqvae.png)
+
 # Summary
 
 This repository provides a simple implementation of SQ-VAE which extends the standard VAE via stochastic dequantization and quantization.
