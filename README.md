@@ -60,12 +60,12 @@ quantizer:
 ## 2) Train the model
 
 ```bash
-python train_gan.py --datadir <path_to_mnist> --jobname <job_name>
+python train_sqvae.py --datadir <path_to_mnist> --jobname <job_name>
 ```
 
 To see more options:
 ```bash
-python train_gan.py -h
+python train_sqvae.py -h
 ```
 
 
